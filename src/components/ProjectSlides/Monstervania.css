@@ -17,27 +17,9 @@
   }
 }
 
-@media (max-width: 940px) {
-  .monstervania__ratimg {
-    max-width: 350px;
-  }
-  .monstervania__vampimg {
-    max-width: 350px;
-  }
-  .monstervania__mcimg {
-    max-width: 350px;
-  }
-  .monstervania__text {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 
 .monstervania__ratimg {
   max-width: 400px;
-  min-width: auto;
   margin-bottom: -50px;
   margin-left: 250px;
 }
@@ -53,4 +35,39 @@
   margin-left: 10px;
   min-width: auto;
   max-width: 400px;
+}
+
+@media (max-width: 940px) {
+  .monstervania__ratimg {
+    max-width: 350px;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: -10px;
+  }
+  .monstervania__vampimg {
+    max-width: 350px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+  .monstervania__mcimg {
+    max-width: 350px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .monstervania__text {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .monstervania__images{
+    margin-left: -40px;
+  }
+}
+
+@media (max-width: 940px) {
+  /* .monstervania__ratimg{
+    margin-left: -80px;
+  } */
 }

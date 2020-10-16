@@ -1,4 +1,5 @@
 .amazon2ali__shibe{
-    width: 450px;
+    max-width: 450px;
+    width: 95%;
     margin: auto;
 }
