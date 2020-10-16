@@ -1,0 +1,53 @@
+.homeheader{
+    color:white;
+    height: 100vh;
+    min-height: 610px;
+    background: fixed url("../../images/montblanc.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .homeheader__roundedsubtitle{
+    font-family:"Dosis", "trebuchet-ms", sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #222831;
+    padding: 15px 30px;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 300px;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+  }
+
+  .homeheader__innerdiv{
+    position: relative;
+    top: 3rem;
+    margin: 0 auto;
+  }
+
+  .homeheader__title{
+    font-family:"Dosis", "trebuchet-ms", sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:90px;
+    letter-spacing: 0.1em;
+    display: inline;
+    border-radius: 75px;
+  }
+
+  @media (min-width: 1400px){
+    .homeheader__innerdiv{
+        top: 4rem;
+    }
+    .homeheader__roundedsubtitle{
+        font-size: 3rem;
+    }
+    .homeheader__title{
+        font-size: 120px;
+    }
+}
+
+  

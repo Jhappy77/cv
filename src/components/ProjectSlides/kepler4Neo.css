@@ -1,0 +1,38 @@
+.kepler4neo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.kepler4neo__k4n_ui{
+    max-width:600px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px #222;
+}
+
+.kepler4neo__k4n_antwerp{
+    max-width: 500px;
+    box-shadow: 5px 5px 10px #222;
+}
+
+@media (max-width: 1200px){
+    .kepler4neo{
+      grid-template-columns: 1fr;
+    }
+    .kepler4neo__k4n_ui{
+      max-width: 450px;
+      margin-left: 20%;
+    }
+    .kepler4neo__k4n_antwerp{
+      max-width: 400px;
+      margin-left: 10%;
+    }
+  }
+
+  @media (min-width: 1200px){
+    .kepler4neo__text{
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: 20px;
+    }
+  }

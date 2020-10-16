@@ -1,0 +1,13 @@
+
+
+.slick-arrow .slick_prev{
+    color: black;
+    background-image: '../../images/left_arrow.png';
+}
+
+@media (max-width: 800px){
+    .projectsection__slide{
+        /* padding-left: 200px;
+        padding-right: 200px; */
+    }
+}

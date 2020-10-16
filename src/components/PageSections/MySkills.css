@@ -1,0 +1,34 @@
+
+.myskills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px; 
+}
+
+@media (max-width: 768px){
+  .myskills{
+    grid-template-columns: 1fr;
+  }
+}
+
+.myskills__row{
+  width: 600px;
+}
+
+.skill-row:hover{
+    background-color: #3EABC5;
+    border-color: #3EABC5;
+  }
+  
+  .check-icon{
+    position: absolute;
+    font-size: 1.7rem;
+    right: 10%;
+  }
+  
+  @media (max-width:768px){
+    .mobile-padding{
+      padding-top: 1.8rem;
+    }
+  }
+  

@@ -1,0 +1,30 @@
+.footer {
+    background-color: #222831;
+    color: white;
+    padding: 3% 15%;
+}
+
+.footer__copyrighttext {
+    position: relative;
+    top: 20px;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+
+.footer__directorylink {
+    position: absolute 0 auto;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 0.7rem;
+    color: #37404f;
+}
+
+.footer__directorylink:hover {
+    color: #37404f;
+}
+
+.footer__socialcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

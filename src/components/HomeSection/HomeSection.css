@@ -1,0 +1,13 @@
+.homesection{
+    padding: 7% 15%;
+}
+
+.homesection--bgcolor-grey{
+    background-color: #F1F1F1;
+    color: #434343;
+}
+
+.homesection--bgcolor-white{
+    background-color:white;
+    color: #434343;
+}

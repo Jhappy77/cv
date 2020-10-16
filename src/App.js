@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import HomeHeader from './components/HomeHeader/HomeHeader.jsx';
+import HomeSection from './components/HomeSection/HomeSection.jsx';
+import Footer from './components/Footer/Footer.jsx';
+import AboutMe from './components/PageSections/AboutMe.jsx';
+import MySkills from './components/PageSections/MySkills.jsx';
+import GetInTouch from './components/PageSections/GetInTouch.jsx';
+import Projects from './components/PageSections/Projects.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HomeHeader />
+      <HomeSection title={"About Me"} isWhite={true} myChild={<AboutMe/>}> </HomeSection>
+      <HomeSection title={"My Skills"} isWhite={false} myChild={<MySkills/>}></HomeSection>
+      <HomeSection title={"Projects"} isWhite={true} myChild={<Projects/>}></HomeSection>
+      <HomeSection title={"Get in Touch"} isWhite={false} myChild={<GetInTouch />}></HomeSection>
+      <Footer />
     </div>
   );
 }

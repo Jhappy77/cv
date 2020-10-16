@@ -1,0 +1,28 @@
+
+.aboutme{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.aboutme__image{
+  width: 75%;
+}
+
+.aboutme__textdiv{
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+}
+
+@media (max-width: 992px){
+
+  .aboutme{
+    grid-template-columns: 1fr;
+  }
+
+  .aboutme__image{
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
