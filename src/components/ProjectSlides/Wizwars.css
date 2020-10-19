@@ -1,5 +1,30 @@
+.wizwars{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
 .wizwars__garlicbread{
     max-width: 450px;
     width: 90%;
     margin: auto;
 }
+
+.wizwars__text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wizwars__screenshot{
+    max-width: 450px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 1200px) {
+    .wizwars {
+      grid-template-columns: 1fr;
+    }
+  }

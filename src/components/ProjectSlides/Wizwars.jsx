@@ -2,21 +2,26 @@ import React from 'react';
 
 import './Wizwars.css';
 
-import k4n_ui from '../../images/k4n_ui.png';
-import k4n_antwerp from '../../images/k4n_antwerp.png';
-import garlicbread from '../../images/garlic_bread.jpeg';
+//import garlicbread from '../../images/garlic_bread.jpeg';
+import wscreen1 from '../../images/wizwars1.png';
+import wscreen2 from '../../images/wizwars2.png';
 
-
-function Wizwars(){
-    return <div>
-    <h3>Wizwars</h3>
-{/* <img src={k4n_ui} className="kepler4neo__k4n_ui"></img>
-<img src={k4n_antwerp} className="kepler4neo__k4n_antwerp"></img> */}
-<p>Wizwars is under active development and is close to release, screenshots will be available soon! In the meantime, have some garlic bread :)
-</p>
-<img className="wizwars__garlicbread" src={garlicbread}></img>
+function Wizwars() {
+    return <div className="wizwars">
+        <div className="wizwars__text">
+        <h3>Wizwars</h3>
+        <p>
+            Wizwars is a mobile and browser game that I co-developped with one of my buddies using Unity and C#. Inspired by classic Flash games of the late 2000's, players control opposing factions
+            of wizards that must use their magic to defeat each other. Wizwars is coming soon to an App Store near you!
+        </p>
+        </div>
+        <div>
+        <img className="wizwars__screenshot wizwars__screenshot--num-1" src={wscreen1} />
+        <img className="wizwars__screenshot wizwars__screenshot--num-2" src={wscreen2} />
+        </div>
     </div>
 
 }
 
 export default Wizwars;
+{/* <img className="wizwars__garlicbread" src={garlicbread}></img> */ }
