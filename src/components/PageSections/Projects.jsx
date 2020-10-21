@@ -5,9 +5,11 @@ import Monstervania from '../ProjectSlides/Monstervania.jsx';
 import Kepler4Neo from '../ProjectSlides/Kepler4Neo.jsx';
 import Wizwars from '../ProjectSlides/Wizwars.jsx';
 import Amazon2Ali from '../ProjectSlides/Amazon2Ali.jsx';
+import CourseRegistration from '../ProjectSlides/CourseRegistration.jsx';
 
 import './Projects.css';
 import { useMediaPredicate } from "react-media-hook";
+
 
 function Projects() {
 
@@ -22,6 +24,7 @@ function Projects() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        //adaptiveHeight: true
     };
 
     function carousel() {
@@ -29,6 +32,7 @@ function Projects() {
             <div className="projectsection__slide"><Monstervania /></div>
             <div className="projectsection__slide"><Kepler4Neo /></div>
             <div className="projectsection__slide"><Wizwars /></div>
+            <div className="projectsection__slide"><CourseRegistration /></div>
             <div className="projectsection__slide"><Amazon2Ali /></div>
         </Slider>
     }
@@ -38,6 +42,7 @@ function Projects() {
             <div className="projectsection__nocarousel"><Monstervania /></div>
             <div className="projectsection__nocarousel"><Kepler4Neo /></div>
             <div className="projectsection__nocarousel"><Wizwars /></div>
+            <div className="projectsection__nocarousel"><CourseRegistration /></div>
             <div className="projectsection__nocarousel"><Amazon2Ali /></div>
         </div>
     }

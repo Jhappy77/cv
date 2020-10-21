@@ -15,7 +15,7 @@ function Amazon2Ali(){
     <p>
         CheaperInChina is a chrome extension that quickly searches for Amazon products on AliExpress to find better deals. Release is pending approval from AliExpress for API usage. Check back in a week or two! In the meantime, enjoy this shibe! :)
     </p>
-    <img className="amazon2ali__shibe"src={shibe}></img>
+    <img className="amazon2ali__shibe"src={shibe} alt="A cute doggo :)"></img>
     </div>
 
 }

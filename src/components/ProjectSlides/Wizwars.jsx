@@ -16,8 +16,8 @@ function Wizwars() {
         </p>
         </div>
         <div>
-        <img className="wizwars__screenshot wizwars__screenshot--num-1" src={wscreen1} />
-        <img className="wizwars__screenshot wizwars__screenshot--num-2" src={wscreen2} />
+        <img  className="wizwars__screenshot wizwars__screenshot--num-1" src={wscreen1} alt="A screenshot of WizWars"/>
+        <img className="wizwars__screenshot wizwars__screenshot--num-2" src={wscreen2} alt="A screenshot of WizWars showing the weapon select stage"/>
         </div>
     </div>
 

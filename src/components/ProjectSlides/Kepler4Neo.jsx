@@ -17,8 +17,8 @@ function Kepler4Neo() {
             </p>
         </div>
         <div>
-            <img src={k4n_ui} className="kepler4neo__scrn kepler4neo__scrn--name-k4n_ui"></img>
-            <img src={k4n_antwerp} className="kepler4neo__scrn kepler4neo__scrn--name-k4n_antwerp"></img>
+            <img src={k4n_ui} className="kepler4neo__scrn kepler4neo__scrn--name-k4n_ui" alt="The kepler4Neo UI"></img>
+            <img src={k4n_antwerp} className="kepler4neo__scrn kepler4neo__scrn--name-k4n_antwerp" alt="Data being displayed that was uploaded from kepler4Neo"></img>
         </div>
     </div>
 
