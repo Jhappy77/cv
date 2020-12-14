@@ -10,12 +10,11 @@ import shibe from '../../images/shibe.jpg';
 function Amazon2Ali(){
     return <div>
     <h3>CheaperInChina</h3>
-    {/* <img src={k4n_ui} className="kepler4neo__k4n_ui"></img>
-    <img src={k4n_antwerp} className="kepler4neo__k4n_antwerp"></img> */}
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MsUlgAihHP8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>
-        CheaperInChina is a chrome extension that quickly searches for Amazon products on AliExpress to find better deals. Release is pending approval from AliExpress for API usage. Check back in a week or two! In the meantime, enjoy this shibe! :)
+        CheaperInChina is a chrome extension that quickly searches for Amazon products on AliExpress to find better deals. Check out the video for more details, and message me if you'd like to check out the code!
     </p>
-    <img className="amazon2ali__shibe"src={shibe} alt="A cute doggo :)"></img>
+    {/* <img className="amazon2ali__shibe"src={shibe} alt="A cute doggo :)"></img> */}
     </div>
 
 }

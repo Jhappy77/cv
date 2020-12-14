@@ -29,21 +29,21 @@ function Projects() {
 
     function carousel() {
         return <Slider {...settings}>
+            <div className="projectsection__slide"><Amazon2Ali /></div>
             <div className="projectsection__slide"><Monstervania /></div>
             <div className="projectsection__slide"><Kepler4Neo /></div>
             <div className="projectsection__slide"><Wizwars /></div>
             <div className="projectsection__slide"><CourseRegistration /></div>
-            <div className="projectsection__slide"><Amazon2Ali /></div>
         </Slider>
     }
 
     function noCarousel() {
         return <div>
+            <div className="projectsection__nocarousel"><Amazon2Ali /></div>
             <div className="projectsection__nocarousel"><Monstervania /></div>
             <div className="projectsection__nocarousel"><Kepler4Neo /></div>
             <div className="projectsection__nocarousel"><Wizwars /></div>
             <div className="projectsection__nocarousel"><CourseRegistration /></div>
-            <div className="projectsection__nocarousel"><Amazon2Ali /></div>
         </div>
     }
 
