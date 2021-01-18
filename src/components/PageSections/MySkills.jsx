@@ -1,6 +1,6 @@
 import React from 'react';
 import './MySkills.css';
-import Skillbar from '../Skillbar/Skillbar.jsx';
+import Skillbar from '../pieces/Skillbar/Skillbar.jsx';
 
 
 function MySkills() {

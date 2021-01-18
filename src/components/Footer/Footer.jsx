@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import SocialMediaCard from '../SocialMediaCard/SocialMediaCard.jsx';
+import SocialMediaCard from './SocialMediaCard/SocialMediaCard.jsx';
 
 function Footer() {
 

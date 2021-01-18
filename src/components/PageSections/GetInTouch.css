@@ -6,19 +6,30 @@
   }
   
   .getintouch__button {
+      height: 75px;
+
+
       box-shadow: 0 10px 14px -7px #276873;
       background:linear-gradient(to bottom, #03abc5 5%, #00ddff 100%);
       background-color:#03abc5;
       border-radius:8px;
-      display: inline-block;
+      display: grid;
       cursor: pointer;
+
+
       color:#ffffff;
       font-family: "Dosis";
-      font-size: 20px;
+      font-size: 2.3rem;
       font-weight: bold;
       padding:13px 32px;
       text-decoration:none;
       text-shadow: 0 1px 0 #0e2c33;
+      
+      align-content: center;
+
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
   }
   
   .getintouch__button:hover {

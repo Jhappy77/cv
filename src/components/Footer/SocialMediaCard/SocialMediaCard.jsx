@@ -10,7 +10,7 @@ function SocialMediaCard(props) {
 
     return <div className="socialmediacard">
         <div className="card">
-            <a className="socialmediacard__link" href={props.link} target="_blank">
+            <a className="socialmediacard__link" href={props.link} target="_blank" rel="noopener noreferrer">
                 <div className="card-header">
                     <i className={"fab " + props.faType} aria-hidden="true"></i>
                 </div>

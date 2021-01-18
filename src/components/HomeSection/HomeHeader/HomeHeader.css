@@ -2,7 +2,7 @@
     color:white;
     height: 100vh;
     min-height: 610px;
-    background: fixed url("../../images/montblanc.jpg");
+    background: fixed url("../../../images/montblanc.jpg");
     background-position: center;
     background-size: cover;
   }
@@ -19,6 +19,9 @@
     border-radius: 300px;
     font-weight: 400;
     letter-spacing: 0.08rem;
+
+    animation: homeheader__title-anim 2s linear;
+
   }
 
   .homeheader__innerdiv{
@@ -36,6 +39,7 @@
     letter-spacing: 0.1em;
     display: inline;
     border-radius: 75px;
+    animation: homeheader__title-anim 2s linear;
   }
 
   @media (min-width: 1400px){
@@ -47,7 +51,16 @@
     }
     .homeheader__title{
         font-size: 120px;
+    } 
+  }
+  
+  @keyframes homeheader__title-anim{
+    0% {
+      opacity: 0.0;
     }
-}
+    100%{
+      opacity: 1.0;
+    }
+  }
 
   

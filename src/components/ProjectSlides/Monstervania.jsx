@@ -18,8 +18,8 @@ function Monstervania() {
 
     var text = <div className="monstervania__text">
     <h3>Monstervania</h3>
-    <p>Monstervania is a mod I developed for minecraft using Java and the MCForge API. The mod adds 5 new monsters to Minecraft, all with unique behaviors, attributes, and AI
-    to challenge the player. This project shows my aptitude for working with large existing codebases and developing large projects. Check out the <a href="https://github.com/Jhappy77/Monstervania">GitHub repo!</a>
+    <p>Monstervania is a mod I developed for minecraft using Java and the MCForge API. The mod adds 5 new monsters to minecraft, each with unique behaviors and drops, along with a host of new dungeons to explore.
+         This project shows my aptitude for working with large existing codebases and developing large projects. Check out the <a href="https://github.com/Jhappy77/Monstervania">GitHub repo!</a>
     </p>
     </div>
 

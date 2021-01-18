@@ -24,4 +24,3 @@ function Wizwars() {
 }
 
 export default Wizwars;
-{/* <img className="wizwars__garlicbread" src={garlicbread}></img> */ }

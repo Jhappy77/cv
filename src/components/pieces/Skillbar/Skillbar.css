@@ -1,0 +1,107 @@
+
+.skillbar__container{
+  padding: 20px 10px;
+  width: 100%;
+  position: relative;
+}
+
+.skillbar{
+    width: 90%; 
+    display: inline-block;
+  }
+  
+  .skillbar__empty{
+    position: relative;
+    background-color: #ddd; 
+    border-radius: 5px;
+  }
+
+  .skillbar__completion{
+    text-align: right; /* Right-align text */
+    color: white;
+    content: '\200B';
+    background:linear-gradient(to left, var(--var-col) 5%, var(--var-col-2) 100%);
+    background-color: #3EABC5;
+    border-radius: 5px;
+    --var-col-2: #00ddff;
+    --var-col: #3EABC5;
+    margin-left: 0;
+    transition: opacity 1s;
+    position: relative;
+  }
+
+  .skillbar__completion:before {
+      border-radius: inherit;
+      background: linear-gradient(to right, var(--var-col) 5%, var(--var-col-2) 100%); /*linear-gradient(var(--var-col-2) 5%, var(--var-col) 100%);*/
+      content: '\200B';
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      z-index: 0; 
+      opacity:0;
+      transition: opacity 1s;
+    }
+    
+  .skillbar__completion:hover:before {
+        opacity: 1;
+    }
+
+
+    .skillbar__innertxt{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-right: 20px;
+      z-index: 100;
+       /* 20px, 10px, auto; */
+    }
+
+  /* .skillbar__completion:hover{
+    animation: skillbar__completion-anim 2s ease-in-out infinite alternate;
+  }
+   */
+  .skillbar__completion--size-100{
+    width: 90%; 
+  }
+
+  .skillbar__completion--size-80{
+    width: 80%; 
+  }
+
+  .skillbar__completion--size-60{
+    width: 60%; 
+  }
+
+  .skillbar__completion--size-40{
+    width: 40%; 
+  }
+
+  .skillbar__text{
+      margin-right: 20px;
+  }
+
+
+
+
+  /**
+    &:before {
+    border-radius: inherit;
+    background-image: linear-gradient(#ccc, #fff);
+    content: '';    
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -100;
+    transition: opacity 0.45s;
+  }
+  
+  &:hover {
+    &:before {
+      opacity: 1;
+    }
+  }
+  **/

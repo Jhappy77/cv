@@ -2,20 +2,25 @@
   "name": "joelhappcv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jhappy77.github.io/cv",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-media-hook": "^0.4.7",
     "react-scripts": "3.4.3",
     "react-slick": "^0.27.11",
+    "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
