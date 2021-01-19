@@ -7,6 +7,12 @@
     background-size: cover;
   }
 
+  @media (hover: none) {
+    .homeheader {
+        background-attachment: initial;
+    }
+ }
+
   .homeheader__roundedsubtitle{
     font-family:"Dosis", "trebuchet-ms", sans-serif;
     margin: 0;
@@ -23,6 +29,14 @@
     animation: homeheader__title-anim 2s linear;
 
   }
+
+
+  @media (max-width: 380px){
+    .homeheader__roundedsubtitle{
+        width: 75%;
+    }
+  }
+
 
   .homeheader__innerdiv{
     position: relative;
